@@ -8,8 +8,8 @@ public class Player : KinematicBody2D
     private AnimatedSprite _run; 
     
     private const int Speed = 750;
-    private const int Gravity = 3000;
-    private const int JumpSpeed = -800;
+    private const int Gravity = 3750;
+    private const int JumpSpeed = -1700;
     private static readonly Vector2 up = new Vector2(0, -1);
 
     public override void _Ready()
@@ -25,6 +25,17 @@ public class Player : KinematicBody2D
         Jump();
         MoveAndSlide(_motion, up);
     }
+
+    public override void _Process(float delta)
+    {
+        base._Process(delta);
+        _run.UpdateAnimation(_motion);
+    }
+
+//    private void UpdateAnimation()
+//    {
+//        _run.Update();
+//    }
 
     private void Fall(float delta)
     {
@@ -42,14 +53,10 @@ public class Player : KinematicBody2D
     {
         if (Input.IsActionPressed("ui_right") && !Input.IsActionPressed("ui_left"))
         {
-            _run.FlipH = false;
-            _run.Play("run");
             _motion.x = Speed;
         }
         else if (Input.IsActionPressed("ui_left") && !Input.IsActionPressed("ui_right"))
         {
-            _run.FlipH = true;
-            _run.Play("run");
             _motion.x = Speed * -1;
         }
         else
