@@ -14,11 +14,15 @@ public class AnimatedSprite : Godot.AnimatedSprite
         
     }
 
-    public void UpdateAnimation(Vector2 motion)
+    public void UpdateAnimation(Vector2 motion, bool onfloor)
     {
         if (motion.y < 0)
         {
             Play("jump");
+        }
+        else if (motion.y > 0 && !onfloor)
+        {
+            Play("fall");
         }
         else if (motion.x > 0)
         {

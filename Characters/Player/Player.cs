@@ -29,7 +29,7 @@ public class Player : KinematicBody2D
     public override void _Process(float delta)
     {
         base._Process(delta);
-        _run.UpdateAnimation(_motion);
+        _run.UpdateAnimation(_motion, IsOnFloor());
     }
 
 //    private void UpdateAnimation()
