@@ -1,0 +1,216 @@
+[gd_resource type="TileSet" load_steps=22 format=2]
+
+[ext_resource path="res://Nathan_Assets/dirtCliff_large.png" type="Texture" id=1]
+[ext_resource path="res://Nathan_Assets/dirtCliff_medium.png" type="Texture" id=2]
+[ext_resource path="res://Nathan_Assets/grassCliff_large.png" type="Texture" id=3]
+[ext_resource path="res://Nathan_Assets/grassCliff_medium.png" type="Texture" id=4]
+[ext_resource path="res://Nathan_Assets/planetCliff_large.png" type="Texture" id=5]
+[ext_resource path="res://Nathan_Assets/planetCliff_medium.png" type="Texture" id=6]
+
+[sub_resource type="ConvexPolygonShape2D" id=1]
+
+custom_solver_bias = 0.0
+points = PoolVector2Array( 212.689, 62.3484, 67.85, 62.836, 49.3183, 61.373, 27.8607, 56.9839, 0.411911, 49.918, -16.5177, 42.3537, -28.7096, 33.5756, -40.4137, 23.3344, -47.2412, 15.5316, -53.5809, 3.33977, -58.4577, -8.36443, -59.433, -18.6056, -59.9207, -35.1865, -57.97, -57.6195, -48.4454, -64.0824, 197.827, -63.6851, 226.344, 58.9346 )
+
+[sub_resource type="ConvexPolygonShape2D" id=2]
+
+custom_solver_bias = 0.0
+points = PoolVector2Array( 322.904, -19.0933, 321.361, -5.69195, 314.608, 11.7854, 305.472, 24.4963, 295.542, 32.8378, 282.036, 41.1793, 270.12, 47.5347, 257.806, 52.3012, 244.698, 56.6706, 226.344, 58.9346, 197.827, -63.6851, 310.636, -64.0824, 322.416, -37.1372 )
+
+[sub_resource type="ConvexPolygonShape2D" id=3]
+
+custom_solver_bias = 0.0
+points = PoolVector2Array( 324.141, -47.0022, 322.416, -37.1372, 310.636, -64.0824, 320.963, -58.9186 )
+
+[sub_resource type="ConvexPolygonShape2D" id=22]
+
+custom_solver_bias = 0.0
+points = PoolVector2Array( 191.799, -12.2572, 189.164, -4.08813, 185.211, 6.45265, 177.306, 18.8381, 166.765, 30.6965, 151.744, 40.9738, 131.453, 50.1969, 104.311, 58.1025, 87.4453, 61.0013, 63.9921, 63.3729, 41.5929, 61.2648, 21.5654, 57.5755, -1.09731, 50.1969, -19.0167, 43.8725, -32.9832, 35.1763, -43.7875, 26.2166, -50.9026, 17.5205, -57.4905, 6.18913, -62.4974, -8.04094, -64.3421, -22.0075, -64.0785, -53.6299, -60.1257, -61.0084, -52.3767, -64.0386, 178.791, -64.0386, 191.799, -19.1088 )
+
+[sub_resource type="ConvexPolygonShape2D" id=23]
+
+custom_solver_bias = 0.0
+points = PoolVector2Array( 190.745, -56.2651, 191.799, -46.5148, 192.326, -36.2375, 192.063, -25.1697, 191.799, -19.1088, 178.791, -64.0386, 186.265, -62.0625 )
+
+[sub_resource type="ConvexPolygonShape2D" id=18]
+
+custom_solver_bias = 0.0
+points = PoolVector2Array( -124.815, 53.5853, -138.718, 48.0243, -153.414, 40.8745, -163.345, 34.1218, -174.467, 22.6026, -185.192, 5.52243, -190.753, -9.17447, -192.341, -22.6797, -191.944, -56.0457, -185.986, -62.7983, -176.85, -64.3872, 180.245, -64.3872, -106.146, 57.5574 )
+
+[sub_resource type="ConvexPolygonShape2D" id=19]
+
+custom_solver_bias = 0.0
+points = PoolVector2Array( 192.161, -11.5578, 188.587, 0.755875, 178.656, 19.4249, 165.151, 32.9302, 145.687, 44.8466, 125.032, 53.1881, 98.0218, 59.9407, 71.8057, 63.9128, 59.4921, 63.9128, -67.2191, 63.5156, -89.0658, 61.5296, -106.146, 57.5574, 180.245, -64.3872, 192.559, -41.3488 )
+
+[sub_resource type="ConvexPolygonShape2D" id=20]
+
+custom_solver_bias = 0.0
+points = PoolVector2Array( 192.956, -52.0735, 192.559, -41.3488, 180.245, -64.3872, 186.6, -61.2095 )
+
+[sub_resource type="ConvexPolygonShape2D" id=21]
+
+custom_solver_bias = 0.0
+points = PoolVector2Array( -51.4447, -65.3695, 181.625, -64.656, 188.76, -59.6617, 191.614, -52.0512, 192.09, -27.7929, 191.376, -10.9072, 185.906, 5.02711, 178.296, 17.8698, 166.404, 30.9502, 150.232, 41.8902, 132.157, 49.7385, 118.601, 53.7816, 101.24, 58.7759, 83.6407, 61.392, 72.225, 63.0568, 57.4798, 63.0568, 41.7832, 60.9163, 26.3245, 58.0624, 11.1036, 54.7328, -6.49554, 48.5494, -24.5703, 40.2254, -39.3156, 29.7611, -51.2069, 16.9184, -60.0065, 1.22191, -63.8117, -12.572, -64.0495, -34.4521, -63.8117, -54.4295, -59.7687, -61.3265 )
+
+[sub_resource type="ConvexPolygonShape2D" id=24]
+
+custom_solver_bias = 0.0
+points = PoolVector2Array( -55.0439, 4.31511, -58.4576, -5.92606, -60.896, -17.6302, -61.3837, -35.6742, -59.2861, -58.4778, -46.3447, -65.272, 199.539, -64.6249, -47.2412, 15.5316 )
+
+[sub_resource type="ConvexPolygonShape2D" id=25]
+
+custom_solver_bias = 0.0
+points = PoolVector2Array( 226.344, 58.9346, 212.689, 62.3484, 67.85, 62.836, 49.3183, 61.373, 27.8607, 56.9839, 2.01393, 49.1812, -16.5177, 42.3537, -28.7096, 33.5756, -41.3891, 24.3098, -47.2412, 15.5316, 199.539, -64.6249, 309.54, -65.272 )
+
+[sub_resource type="ConvexPolygonShape2D" id=26]
+
+custom_solver_bias = 0.0
+points = PoolVector2Array( 322.904, -19.0933, 319.002, -5.92606, 311.687, 11.6302, 302.909, 22.8467, 293.643, 32.1125, 280.476, 40.403, 268.284, 46.7428, 255.605, 51.1319, 240.487, 56.0086, 226.344, 58.9346, 309.54, -65.272, 322.416, -37.1372 )
+
+[sub_resource type="ConvexPolygonShape2D" id=27]
+
+custom_solver_bias = 0.0
+points = PoolVector2Array( 322.416, -46.8907, 322.416, -37.1372, 309.54, -65.272, 319.49, -60.5456 )
+
+[sub_resource type="ConvexPolygonShape2D" id=28]
+
+custom_solver_bias = 0.0
+points = PoolVector2Array( 191.799, -12.2572, 189.164, -4.08813, 185.211, 6.45265, 177.306, 18.8381, 166.765, 30.6965, 151.744, 40.9738, 131.453, 50.1969, 104.311, 58.1025, 87.4453, 61.0013, 63.9921, 63.3729, 41.5929, 61.2648, 21.5654, 57.5755, -1.09731, 50.1969, -19.0167, 43.8725, -32.9832, 35.1763, -43.7875, 26.2166, -50.9026, 17.5205, -57.4905, 6.18913, -62.4974, -8.04094, -64.3421, -22.0075, -64.0785, -53.6299, -60.1257, -61.0084, -52.7472, -64.6977, 179.414, -64.6977, 191.799, -19.1088 )
+
+[sub_resource type="ConvexPolygonShape2D" id=29]
+
+custom_solver_bias = 0.0
+points = PoolVector2Array( 190.745, -56.2651, 191.799, -46.5148, 192.326, -36.2375, 192.063, -25.1697, 191.799, -19.1088, 179.414, -64.6977, 186.265, -62.0625 )
+
+[resource]
+
+0/name = "LargeDirt"
+0/texture = ExtResource( 1 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 0, 0, 384, 128 )
+0/is_autotile = false
+0/occluder_offset = Vector2( 192, 64 )
+0/navigation_offset = Vector2( 192, 64 )
+0/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 1 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 60, 64 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 2 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 60, 64 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 3 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 60, 64 )
+} ]
+1/name = "MediumDirt"
+1/texture = ExtResource( 2 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 0, 0, 256, 128 )
+1/is_autotile = false
+1/occluder_offset = Vector2( 128, 64 )
+1/navigation_offset = Vector2( 128, 64 )
+1/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 22 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 63.9685, 63.8063 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 23 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 63.9685, 63.8063 )
+} ]
+2/name = "LargeGrass"
+2/texture = ExtResource( 3 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 0, 0, 384, 128 )
+2/is_autotile = false
+2/occluder_offset = Vector2( 192, 64 )
+2/navigation_offset = Vector2( 192, 64 )
+2/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 18 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 192, 64 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 19 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 192, 64 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 20 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 192, 64 )
+} ]
+3/name = "MediumGrass"
+3/texture = ExtResource( 4 )
+3/tex_offset = Vector2( 0, 0 )
+3/modulate = Color( 1, 1, 1, 1 )
+3/region = Rect2( 0, 0, 256, 128 )
+3/is_autotile = false
+3/occluder_offset = Vector2( 128, 64 )
+3/navigation_offset = Vector2( 128, 64 )
+3/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 21 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 63.9685, 64.8063 )
+} ]
+4/name = "LargePlanet"
+4/texture = ExtResource( 5 )
+4/tex_offset = Vector2( 0, 0 )
+4/modulate = Color( 1, 1, 1, 1 )
+4/region = Rect2( 0, 0, 384, 128 )
+4/is_autotile = false
+4/occluder_offset = Vector2( 192, 64 )
+4/navigation_offset = Vector2( 192, 64 )
+4/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 24 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 61, 65 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 25 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 61, 65 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 26 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 61, 65 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 27 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 61, 65 )
+} ]
+5/name = "MediumPlanet"
+5/texture = ExtResource( 6 )
+5/tex_offset = Vector2( 0, 0 )
+5/modulate = Color( 1, 1, 1, 1 )
+5/region = Rect2( 0, 0, 256, 128 )
+5/is_autotile = false
+5/occluder_offset = Vector2( 128, 64 )
+5/navigation_offset = Vector2( 128, 64 )
+5/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 28 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 63.9685, 64.8063 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 29 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 63.9685, 64.8063 )
+} ]
+
