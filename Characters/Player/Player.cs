@@ -39,7 +39,7 @@ public class Player : KinematicBody2D
 
     private void Fall(float delta)
     {
-        if (IsOnFloor())
+        if (IsOnFloor() || IsOnCeiling())
         {
             _motion.y = 0;
         }
